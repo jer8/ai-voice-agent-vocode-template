@@ -78,7 +78,7 @@ def get_assistant_instructions():
 # GPT4AllAgent and ChatAnthropicAgent.
 # Don't forget to set OPENAI_API_KEY!
 AGENT_CONFIG = ChatGPTAgentConfig(
-  initial_message=BaseMessage(text="Hello, who am I talking to?"),
+  initial_message=BaseMessage(text="Hello! Welcome to Royal Apple Dental Clinic. How can I assist you today"),
   prompt_preamble=get_assistant_instructions(),
   generate_responses=True,
 )
