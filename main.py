@@ -1,4 +1,5 @@
 import logging
+#for basic os related operations
 import os
 
 from config import BASE_URL
